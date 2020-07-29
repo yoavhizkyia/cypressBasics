@@ -1,0 +1,232 @@
+    body {
+    background-color: lightblue;
+}
+
+    .title {
+    border: 3px solid rgb(130, 149, 225);
+    border-radius: 10px; 
+    margin: 2vh 1vw;
+    display: flex;
+    background-color: rgb(204, 239, 255);
+    height: 7vh;
+    width: 96vw;
+}
+
+    .backToFuture {
+    -webkit-text-stroke: 1px white;
+    font-family: sans-serif;
+    color: rgb(0, 71, 179);
+    font-size: 6vh;
+    margin-top: 0px;
+    font-weight: 600; 
+    letter-spacing: 0.5vw;
+}
+
+    .titleImage {
+    padding-top: 3px;
+    float: right;
+    width: 6vh;
+    height: 6vh;
+    margin-right: 5px;
+}
+
+    .divOfNameAndClock  {
+    position: absolute;
+    left: 4vw;
+}
+
+    #name {
+    margin-top: 1vh;
+    font-family: verdana;
+    font-size: 2.5vh;
+    margin-bottom: 0px;
+    font-weight: bolder;
+}
+
+    #lastSignInClock {
+    margin-top: 0px;
+    font-size: 1.7vh;
+    font-weight: initial;
+}
+
+    #mainPage {
+    display: flex;    
+}
+
+    .rightDiv {
+    border: 3px solid rgb(130, 149, 225);
+    border-radius: 20px; 
+    margin: 1vh 1vw;
+    width: 10vw;
+    padding: 20vh 3vw 12vh;
+    background-color: rgb(100, 198, 215);
+}
+
+    .listOfBtns {
+    border: 1px solid  white;
+    border-radius: 5px;
+    width: 10vw;
+    margin-bottom: 10px;
+    height: 6vh;
+    box-shadow: 2px 5px 20px black inset;
+    background-color: rgb(46, 175, 199);
+    cursor: pointer;
+} 
+
+    .textOnBtn {
+    text-align: center;
+    color: white;
+    font-size: 2vh;
+}
+
+    .mainDiv {
+    border: 3px solid rgb(130, 149, 225);
+    border-radius: 90px; 
+    margin: 1vh 1vw;
+    width: 100vw;
+    height: 80vh;
+    background-color: rgb(238, 238, 235);
+}
+
+    .allDetailsDiv {
+    border: 3px solid rgb(130, 149, 225);
+    margin-top: 2vh;
+    margin-right: 6vw;
+    margin-bottom: 1vh;
+    width: 65vw;
+    height: 50vh; 
+    background-color: white; 
+}
+
+    .spesificDetailsDiv {
+    border: 3px solid rgb(130, 149, 225);
+    height: 20vh;
+    width: 65vw;
+    background-color: white; 
+    margin-top: 1vh;
+    margin-right: 6vw;
+    margin-bottom: 2vh;
+    overflow:hidden; 
+    overflow-y:scroll;
+}
+
+    .textOfDetails {
+    text-align: center; 
+    margin-top: 3px;
+    font:caption;
+    font-size: 2vh;
+}
+
+    #activitionBtn {
+    margin-right: 3vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    height: 5vh;
+    width: 6vw;
+    border: black solid 1px;
+    cursor: pointer;
+}
+
+    #activitionBtnText {
+    font-size: 2vh;
+    text-align: center;
+    margin-block-start: 0.6vh;
+}
+ 
+    #clock {
+    display: flex;
+    margin-right: 1vw;
+    margin-top: 1vh;
+    height: 5vh;
+    box-shadow: 3px 3px 3px black ;
+}
+    #detailsTable {
+    width: 50vw;
+    height: 30vh;
+    margin-right: 10vw;
+    border-spacing: 4vh;
+}
+    .tableHeader {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+}
+    #detailsTable td {
+    height: 3vh;
+    text-align: right;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+    .tableRows {
+    background-color: gray;
+    cursor:pointer;
+}
+
+    :hover.tableRows {
+    background-color: aqua;
+}
+
+    #detailsTable th {
+    width: 10vw;
+    height: 5vh;  
+}
+
+    #accumulationBtn {
+    position: absolute;
+    left: 10vw;
+    height: 5vh;
+    width: 5vw;
+    margin-top: 1vh;
+}
+
+    #textOfAccumulationBtn{
+    text-align: center;
+    margin-block-start: 1.5vh;
+}
+
+    .aquaBackground {
+    background-color: aqua;
+}
+
+    .addingBorder {
+    border: white 3px solid;
+}
+
+    #accumulationList{
+    font-size: 3vh;
+    font-weight: 600;
+    margin-right: 7vw;
+}
+
+    .idSortBtnUpToDown {
+    width: 0; 
+    height: 0; 
+    margin-top: 0.5vh;
+    border-left: 1vw solid transparent;
+    border-right: 1vw solid transparent;
+    border-top: 1vw solid #ffffff;
+    cursor:pointer;
+}
+
+    .idSortBtnDownToUp {
+    cursor:pointer;
+    overflow: auto;
+    width: 0; 
+    height: 0; 
+    border-left: 1vw solid transparent;
+    border-right: 1vw solid transparent;
+    border-bottom: 1vw solid #ffffff;
+}
+
+    .sortingBtn {  
+    display: flex;
+    flex-direction: column;
+    margin-right: 2vw;
+}
+
+    #detailsTable th:first-child {
+    display: flex;
+    flex-direction: row;
+}

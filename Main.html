@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+<link rel="stylesheet" type="text/css" href="Main.css">
+<title>Trip To Space</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body onload="clockFunction(), onClickOnListOfButton()">
+    <div class= "title">
+        <div>
+            <img src="tikshuv.png" alt="tikshuv pic" class="titleImage">
+            <img src="Mazpenlogo.png" alt="Mazpenlogo pic" class="titleImage">
+        </div>
+        <h1 class="backToFuture">בחזרה לעתיד</h1>
+        <button id="activitionBtn" onclick="stopClock()">
+            <p id="activitionBtnText">הפעל</p>
+        </button>
+        <div id="clock">
+            <p id="timer"> </p>
+        </div>
+        <div class="divOfNameAndClock">
+        <p id="name">שלום פלוני אלמוני</p>
+        <p id="lastSignInClock">הכניסה האחרונה שלך 11:00</p>
+    </div>
+</div>
+
+<div id="mainPage">
+    <div class="rightDiv">
+        <button class="listOfBtns" onclick="hideDetails()">
+            <p class="textOnBtn">חייזרים</p>
+        </button>
+        <button id="youngerBtn" class="listOfBtns" onclick="CreateTableFromJSON()">
+            <p class="textOnBtn">צעירים</p>
+        </button>
+        <button class="listOfBtns" onclick="hideDetails()">
+            <p class="textOnBtn">ניהול</p>
+        </button>
+        <button class="listOfBtns" onclick="hideDetails()">
+            <p class="textOnBtn">מלחמה</p>
+        </button>
+        <button class="listOfBtns" onclick="hideDetails()">
+            <p class="textOnBtn">מרחב גלקסי</p>
+        </button>      
+    </div>
+
+    <div class="mainDiv">
+        <div class="allDetailsDiv">
+            <button id="accumulationBtn" onclick="accumulationBtn()">
+                <p id="textOfAccumulationBtn">+</p>
+            </button>
+            <p class="textOfDetails">כל הפרטים:</p> 
+            <table id="detailsTable">
+            </table>
+        </div>
+        <div class="spesificDetailsDiv">
+            <p class="textOfDetails">פרטים ספציפיים:</p>
+            <div id="accumulationList">
+                <div id="spesificDetailsAddOns"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="Main.js"></script>
+</body>
+</html>
